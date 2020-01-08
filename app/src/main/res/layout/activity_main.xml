@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:textAlignment="center"
+
+        android:hint="Enter Your reminder Message"
+        android:id="@+id/editext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TimePicker
+        android:numbersTextColor="#000"
+        android:background="#fff"
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="330dp"
+        android:paddingLeft="10dp"
+        android:textAlignment="center">
+
+    </TimePicker>
+    <Button
+        android:id="@+id/button"
+        android:text=" Add "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+</LinearLayout>
